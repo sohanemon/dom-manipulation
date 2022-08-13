@@ -1,0 +1,11 @@
+const siam = document.querySelector("#siam");
+console.log(siam.getAttribute("class"));
+console.log(siam.getAttribute("id"));
+siam.setAttribute("style", "font-size:200px; text-align:center");
+const rakibul = document.querySelector("#rakibul");
+rakibul.style.backgroundColor = "yellow";
+rakibul.style.padding = "10px";
+rakibul.style.textAlign = "center";
+rakibul.innerText = "rakibul";
+const krisno = document.getElementById("krisno");
+krisno.innerHTML = `<h1>krishno roy</h1>`;
